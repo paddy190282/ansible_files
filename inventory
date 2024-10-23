@@ -1,0 +1,2 @@
+node1   ansible_ssh_host=10.128.0.54 ansible_ssh_user=sirin_a  
+node2   ansible_ssh_host=10.128.0.55 ansible_ssh_user=sirin_a
