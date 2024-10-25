@@ -1,1 +1,12 @@
 
+---
+- hosts: localhost
+  roles:
+  - pro
+  vars:
+    prometheus_targets:
+      node:
+      - targets:
+        - localhost:9100
+        labels:
+          env: champ
